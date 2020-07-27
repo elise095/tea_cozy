@@ -52,7 +52,7 @@ main{
 /*Our mission */
   #mission {
     background-image: url(./resources/images/img-mission-background.jpg);
-    background-image: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
@@ -64,7 +64,6 @@ main{
 
     }
   .our_mission{
-    display: block;
     margin: auto;
     width: 100%;
     text-align: center;
@@ -123,7 +122,7 @@ main{
 /* Locations */
   #location{
     height: 500px;
-    background-image: url("/resources/images/img-locations-background.jpg") ;
+    background-image: url("resources/images/img-locations-background.jpg") ;
     background-repeat: no-repeat;
     background-image: cover;
     background-position: center;
